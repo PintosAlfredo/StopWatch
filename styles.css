@@ -1,0 +1,34 @@
+body {
+    font: bold;
+    margin: 0;
+    background: local;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.stopwatch-container {
+    text-align: center;
+}
+
+#stopwatch {
+    font-size: 10vh;
+    margin-bottom: not default;
+    color: black;
+    border: brown;
+}
+
+button {
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    font: bold;
+}
+
+button:hover {
+  background-color: bisque;
+}
+
